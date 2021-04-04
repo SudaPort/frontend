@@ -5,7 +5,7 @@ COPY ./Gulpfile.js /tmp
 COPY ./logo.svg /tmp
 COPY ./logo-white.svg /tmp
 
-RUN cd /tmp && npm install
+RUN cd /tmp && npm init -y && npm install
 
 WORKDIR /src
 
