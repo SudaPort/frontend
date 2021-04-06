@@ -16,7 +16,7 @@
     "qrcode-npm": "0.0.3",
     "sjcl": "1.0.3",
     "stellar-sdk": "git+https://github.com/stellar/js-stellar-sdk.git",
-    "smart-api-js": "git+https://gitlab.com/SudaPort/smart-api-js.git",
+    "smart-api-js": "git+https://github.com/SudaPort/smart-api-js.git",
     "vanilla-masker": "1.0.9",
     "dateformat": "1.0.12",
     "sweetalert": "1.1.3",
