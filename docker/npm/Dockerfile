@@ -10,4 +10,5 @@ RUN cd /tmp && npm init -y && npm install
 WORKDIR /src
 
 COPY ./entrypoint.sh /
+RUN chmod u+x+r+w /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
