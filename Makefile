@@ -39,6 +39,7 @@ build:
 envjs:
 	@if [ ! -f ./env.js ]; then\
 	  	echo "var Env = {" >> ./env.js; \
+		chmod u+x+r+w ./scripts/generate_js_env.sh \
 		./scripts/generate_js_env.sh \
 		echo "" >> ./env.js; \
 	  	echo "};" >> ./env.js; \
