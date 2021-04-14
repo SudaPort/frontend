@@ -6,7 +6,7 @@ services:
     container_name: smartmoney-frontend-nginx
     build: docker/nginx
     ports:
-      - "8010:80"
+      - "8010:8010"
     volumes:
       - ./docker/npm/src:/src
     env_file:
