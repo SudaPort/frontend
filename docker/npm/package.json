@@ -1,13 +1,13 @@
 {
   "name": "public_html",
-  "version": "1.0.0",
-  "description": "",
+  "version": "2.0.0",
+  "description": "Gurosh front end",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "eval `ssh-agent` && chmod 600 npm_key_rsa && ssh-add npm_key_rsa && npm install"
   },
-  "author": "",
+  "author": "SudaPort",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "3.3.6",
