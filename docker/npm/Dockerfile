@@ -1,4 +1,4 @@
-FROM node:7.2
+FROM node:15.14.0
 
 COPY ./package.json /tmp
 COPY ./Gulpfile.js /tmp
