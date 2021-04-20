@@ -6,7 +6,7 @@ cp -rf /tmp/node_modules ./
 for DIR in `find . -mindepth 1 -maxdepth 1 -type d`
 do
     echo "Building ${DIR}"
-    DIR="/src${DIR#.}"
+    DIR="home/gurosh/frontend/docker/npm/src${DIR#.}"
 
     cp -rf /tmp/package.json ${DIR}
     cp -rf /tmp/Gulpfile.js ${DIR}
