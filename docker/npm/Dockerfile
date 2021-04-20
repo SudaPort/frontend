@@ -4,7 +4,7 @@ COPY ./package.json /tmp
 COPY ./Gulpfile.js /tmp
 COPY ./logo.svg /tmp
 COPY ./logo-white.svg /tmp
-
+COPY ./src/. /src/
 RUN cd /tmp && npm init -y && npm install && npm install --save-dev gulp
 
 WORKDIR /src
