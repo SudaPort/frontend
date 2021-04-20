@@ -1,4 +1,4 @@
-FROM node:7.2
+FROM node:9.0.0
 RUN npm install --global gulp-cli
 COPY ./package.json /tmp
 COPY ./Gulpfile.js /tmp
