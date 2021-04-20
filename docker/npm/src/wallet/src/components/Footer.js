@@ -47,7 +47,7 @@ module.exports = {
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
-                            © 2016 - {new Date().getFullYear()} AtticLab
+                            © 2016 - {new Date().getFullYear()} SudaPort
                         </div>
                     </div>
                 </div>
