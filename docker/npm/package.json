@@ -14,7 +14,7 @@
     "localize": "0.4.7",
     "mithril": "0.2.5",
     "qrcode-npm": "0.0.3",
-    "sjcl": "1.0.3",
+    "sjcl": "1.0.8",
     "stellar-sdk": "git+https://github.com/SudaPort/smart-sdk-js.git#master",
     "smart-api-js": "git+https://github.com/SudaPort/smart-api-js.git#master",
     "vanilla-masker": "1.0.9",
