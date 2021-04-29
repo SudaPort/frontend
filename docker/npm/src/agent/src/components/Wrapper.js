@@ -261,7 +261,7 @@ module.exports = {
                         </div>
                     </div>
                     <footer class="footer text-right">
-                        2016 - {new Date().getFullYear()} © AtticLab
+                        2016 - {new Date().getFullYear()} © SudaPort
                     </footer>
                 </div>
             </div>

@@ -15,7 +15,7 @@ var envify = require('gulp-envify');
 //for less
 var lessDir = 'public/assets/less/';
 var themeDir = lessDir + 'themes/';
-var defaultTheme = 'smartmoney';
+var defaultTheme = 'gurosh';
 
 gulp.task('js', function() {
 

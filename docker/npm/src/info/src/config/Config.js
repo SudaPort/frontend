@@ -7,7 +7,7 @@ var conf = {
     stellar_network: process.env.STELLAR_NETWORK,
     project_name: process.env.PROJECT_NAME,
     merchant_prefix: 'mo:',
-    copyright_link: 'http://atticlab.net'
+    copyright_link: 'http://SudaPort.com'
 };
 
 conf.limit = 25;
