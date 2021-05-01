@@ -33,7 +33,7 @@ conf.loc.changeLocale = function (locale, e) {
 };
 conf.tr = conf.loc.translate; //short alias for translation
 
-conf.logo_src = conf.loc.userLanguage === 'ua' ? 'logo-white-ua.svg' : 'logo-white.svg';
+conf.logo_src = conf.loc.userLanguage === 'ar' ? 'logo-white-ua.svg' : 'logo-white.svg';
 
 var errors = require('../errors/Errors');
 conf.errors = errors;

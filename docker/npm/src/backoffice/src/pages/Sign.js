@@ -159,8 +159,8 @@ var Sign = module.exports = {
                         <li>
                             <a onclick={Conf.loc.changeLocale.bind(ctrl, 'en')} href="#"><img
                                 src="/assets/img/flags/en.png"/> English</a>
-                            <a onclick={Conf.loc.changeLocale.bind(ctrl, 'ua')} href="#"><img
-                                src="/assets/img/flags/ua.png"/> Українська</a>
+                            <a onclick={Conf.loc.changeLocale.bind(ctrl, 'ar')} href="#"><img
+                                src="/assets/img/flags/ar.png"/> العربية</a>
                             <a onclick={Conf.loc.changeLocale.bind(ctrl, 'ru')} href="#"><img
                                 src="/assets/img/flags/ru.png"/> Русский</a>
                         </li>

@@ -18,23 +18,23 @@ var translation = {
         'js_safari_download_message': 'Safari may have some troubles with file downloading. If instead of downloading, Safari open file in new tab, please, press ⌘+S and save file with extension .smbx (Example: file.smbx)'
 
 },
-    'ua' : {
-        'Sign Transaction' : 'Підписати транзакцію',
-        'js_wrong_password': 'Невірна мнемонічна фраза',
-        'js_cannot_decrypt': 'Система не може розшифрувати приватний ключ',
-        'js_ent_pass': 'Вкажіть мастер-пароль',
-        'js_ent_em_pass': 'Вкажіть пароль емісії',
-        'js_message': 'Повідомлення',
-        'js_enter_em_mnemonic': 'Введіть мнемонічну фразу ключа емісії',
-        'js_enter_master_mnemonic': 'Введіть мнемонічну фразу мастер-рахунку',
-        'dictDefaultMessage': 'Перетягніть файл або клікніть',
-        'dictInvalidFileType': 'Невірний формат файлу',
-        'dictFileTooBig': 'Файл занадто великий',
-        'dictFileMaxSize': 'Максимальний розмір файлу',
-        'mb': 'МБ',
-        "js_button_ok":  'Підтвердити',
-        "js_button_cancel":  'Відміна',
-        'js_safari_download_message': 'У браузері Safari можливі проблеми зі скачування файлів. Якщо Safari замість завантаження, відкрив файл у новій вкладці, будь-ласка, натисніть ⌘+S і збережіть файл із розширенням .smbx (Наприклад: file.smbx)'
+    'ar' : {
+        'Sign Transaction' : 'توقيع معاملة',
+        'js_wrong_password': 'عبارة سرية غير صحيحة',
+        'js_cannot_decrypt': 'لا يمكن للنظام فك تشفير مفتاح خاص',
+        'js_ent_pass': 'حدد كلمة مرور رئيسية',
+        'js_ent_em_pass': 'حدد كلمة مرور الانبعاثات',
+        'js_message': 'رسالة',
+        'js_enter_em_mnemonic': 'أدخل العبارة السرية لمفتاح الانبعاثات',
+        'js_enter_master_mnemonic': 'أدخل عبارة الحساب الرئيسي',
+        'dictDefaultMessage': 'اسحب الملف أو النقر',
+        'dictInvalidFileType': 'تنسيق ملف غير صالح',
+        'dictFileTooBig': 'الملف كبير جدا',
+        'dictFileMaxSize': 'حجم الملف الأقصى',
+        'mb': 'ميغابايت',
+        "js_button_ok":  'يتأكد',
+        "js_button_cancel":  'إلغاء',
+        'js_safari_download_message': 'في متصفح Safari، يمكنك تنزيل الملفات.إذا كان Safari بدلا من التنزيل، فتح ملف في علامة تبويب جديدة، يرجى الضغط على ⌘ + s وحفظ الملف بملحق .smbx (على سبيل المثال: file.smbx)'
     },
     'ru' : {
         'Sign Transaction' : 'Подписать транзакцию',

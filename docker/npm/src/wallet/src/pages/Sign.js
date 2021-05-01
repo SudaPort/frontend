@@ -138,7 +138,7 @@ var Sign = module.exports = {
                                     <div class="col-xs-12">
                                         <input class="form-control" type="tel" name="login" required="required"
                                                placeholder={Conf.tr("Enter your mobile phone number: ") + Conf.phone.view_mask}
-                                               title={Conf.tr("Ukrainian phone number format allowed: +38 (050) 123-45-67")}
+                                               title={Conf.tr("Sudan phone number format allowed: +249 (912) 123-45-67")}
                                                oninput={ctrl.addPhoneViewPattern.bind(ctrl)}
                                                value={ctrl.login()}
                                         />
