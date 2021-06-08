@@ -15,7 +15,6 @@ services:
       default:
         external:
           name: guroshnet
-            ipv4_address: 188.0.0.2
 
   npm:
     image: gurosh/frontend/npm
@@ -29,4 +28,3 @@ services:
       default:
         external:
           name: guroshnet
-            ipv4_address: 188.0.0.3
