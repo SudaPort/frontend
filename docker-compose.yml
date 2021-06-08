@@ -13,8 +13,7 @@ services:
       - .env
     networks:
       docker0:
-        external: true
-        ipv4_address: 172.17.0.2
+       - ipv4_address: 172.17.0.2
 
   npm:
     image: gurosh/frontend/npm
@@ -26,5 +25,4 @@ services:
       - .env
     networks:
       docker0:
-        external: true
-        ipv4_address: 172.17.0.3
+       - ipv4_address: 172.17.0.3
