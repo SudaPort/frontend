@@ -13,7 +13,7 @@ services:
       - .env
     networks:
       default:
-        external:
+        external: true
           name: guroshnet
 
   npm:
@@ -26,5 +26,5 @@ services:
       - .env
     networks:
       default:
-        external:
+        external: true
           name: guroshnet
